@@ -78,7 +78,7 @@ if (botonBuscar) {
             return;
         }
 
-        const mensaje = `Hola Casa Andina Jara 👋\n\nDeseo consultar disponibilidad.\n\n📅 Llegada:\n${entrada}\n\n📅 Salida:\n${salida}\n\n👥 Huéspedes:\n${huespedes}\n\n¿Podrían indicarme disponibilidad y tarifas?\n\nGracias.`;
+        const mensaje = `Hola Casa Andina Jara 👋🏻\n\nDeseo consultar disponibilidad.\n\n 🗓️ Llegada:\n${entrada}\n\n🗓️ Salida:\n${salida}\n\n 👥 Huéspedes:\n${huespedes}\n\n¿Podrían indicarme disponibilidad y tarifas?\n\nGracias.`;
 
         const url = "https://wa.me/" + numeroHotel + "?text=" + encodeURIComponent(mensaje);
 
@@ -118,16 +118,16 @@ Deseo realizar una solicitud de reserva.
 👤 Nombre:
 ${nombre}
 
-📧 Correo:
+📬 Correo:
 ${correo}
 
-📱 Teléfono:
+📲 Teléfono:
 ${telefono}
 
-📅 Fecha de llegada:
+🗓️ Fecha de llegada:
 ${fechaEntrada}
 
-📅 Fecha de salida:
+🗓️Fecha de salida:
 ${fechaSalida}
 
 👥 Huéspedes:
